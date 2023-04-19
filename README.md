@@ -90,4 +90,4 @@ pnpm dev
 
 ## License
 
-Licensed under the [MIT license](https://github.com/yeabu369/escrowgpt/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/yeabu369/escrow-gpt/blob/main/LICENSE.md).
