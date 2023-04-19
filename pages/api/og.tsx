@@ -97,7 +97,7 @@ export default async function handler(req: NextRequest) {
               tw="flex text-xl"
               style={{ fontFamily: "Inter", fontWeight: "normal" }}
             >
-              tx.shadcn.com
+              tx.yeabu369.com
             </div>
             <div
               tw="flex items-center text-xl"
@@ -119,7 +119,7 @@ export default async function handler(req: NextRequest) {
                   stroke-linejoin="round"
                 />
               </svg>
-              <div tw="flex ml-2">github.com/shadcn/taxonomy</div>
+              <div tw="flex ml-2">github.com/yeabu369/escrowgpt</div>
             </div>
           </div>
         </div>

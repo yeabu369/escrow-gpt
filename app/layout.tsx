@@ -31,11 +31,11 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: "yeabu369",
+      url: "https://yeabu369.com",
     },
   ],
-  creator: "shadcn",
+  creator: "yeabu369",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -61,7 +61,7 @@ export const metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og.jpg`],
-    creator: "@shadcn",
+    creator: "@yeabu369",
   },
   icons: {
     icon: "/favicon.ico",
