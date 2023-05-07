@@ -119,7 +119,7 @@ export default async function handler(req: NextRequest) {
                   stroke-linejoin="round"
                 />
               </svg>
-              <div tw="flex ml-2">github.com/yeabu369/escrow-gpt</div>
+              <div tw="flex ml-2">github.com/yeabu369/schedule-gpt</div>
             </div>
           </div>
         </div>

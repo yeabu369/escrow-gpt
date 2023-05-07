@@ -1,4 +1,4 @@
-# EscrowGPT
+# ScheduleGPT
 
 An open source application built using the new router, server components and everything new in Next.js 13.
 
@@ -90,4 +90,4 @@ pnpm dev
 
 ## License
 
-Licensed under the [MIT license](https://github.com/yeabu369/escrow-gpt/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/yeabu369/schedule-gpt/blob/main/LICENSE.md).

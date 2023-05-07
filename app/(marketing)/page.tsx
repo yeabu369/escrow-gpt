@@ -4,12 +4,12 @@ import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
-import hero from "../../public/images/hero.png"
+import hero from "../../public/images/hero.svg"
 
 async function getGitHubStars(): Promise<string | null> {
   try {
     const response = await fetch(
-      "https://api.github.com/repos/yeabu369/escrow-gpt",
+      "https://api.github.com/repos/yeabu369/schedule-gpt",
       {
         headers: {
           Accept: "application/vnd.github+json",
@@ -45,8 +45,8 @@ export default async function IndexPage() {
             Build trust with AI
           </h1>
           <p className="max-w-[42rem] leading-normal text-slate-700 sm:text-xl sm:leading-8">
-            Escrow GPT allows to bridge the gap between the buyer and seller by
-            using AI to verify the authenticity of the product. Escrow transactions
+            Schedule GPT allows to bridge the gap between the buyer and seller by
+            using AI to verify the authenticity of the product. Schedule transactions
             between AI agents, AI agents and the buyer, and AI agents and the seller.
           </p>
         </div>
@@ -165,7 +165,7 @@ export default async function IndexPage() {
         </div>
         <div className="mx-auto flex flex-col gap-4 md:max-w-[52rem]">
           <p className="max-w-[85%] leading-normal text-slate-700 sm:text-lg sm:leading-7">
-            EscrowGPT also includes a blog and a full-featured documentation site
+            ScheduleGPT also includes a blog and a full-featured documentation site
             built using Contentlayer and MDX.
           </p>
         </div>
@@ -177,7 +177,7 @@ export default async function IndexPage() {
             Proudly Open Source
           </h2>
           <p className="max-w-[85%] leading-normal text-slate-700 sm:text-lg sm:leading-7">
-            EscrowGPT is open source and powered by open source software. The
+            ScheduleGPT is open source and powered by open source software. The
             code is available on{" "}
             <Link
               href={siteConfig.links.github}
